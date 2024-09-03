@@ -14,18 +14,18 @@
 2つ目のコマンドを入力し実行します。
 そうしたら、ターミナルの左の方にある　`+`　ボタンを押しそこで、3つ目のコードを入力します。
 
- 1つ目のコマンド:
+1. 1つ目のコマンド:
     ```bash
     cd server && sudo java -jar server.jar
     ```
 
- 2つ目のコマンド:
+2. 2つ目のコマンド:
     ```bash
     sudo java -jar server.jar
     ```
     このコマンドを実行します。
 
- 3つ目のコマンド:
+3. 3つ目のコマンド:
     ```bash
     cd bungee && sudo java -jar bungee.jar
     ```
