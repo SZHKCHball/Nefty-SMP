@@ -1,28 +1,33 @@
-# EaglerCraftX Server
+# EaglerCraft Server
 
-## Credits
-Original Project: Lax1Dude
 <br>
-Original Server Fork: EcoliEater87
 <br>
-## Setup Guide
+## セットアップガイド
 イーグルクラフトサーバーの作り方
 <br>
 <br>
-まず、右上のforkボタンを押し、もう一度右下のフォークボタンを押してこの作品をフォークします。<br>
+まず、右上のforkボタンを押しもう一度右下のフォークボタンを押してこの作品をフォークします。<br>
 そうしたら、<> code のボタンを押し、codespases の　+　ボタンを押します。
-そしてしばらく待つと　[プレビュー]readme.md 
+そしてしばらく待つと　[プレビュー] readme.md と表示されます。これが表示されたら、下に表示されているターミナルに1つ目のコマンドを打ちます。
 <br>
 <br>
-create 2 terminal tabs and paste in the following snipits:
+1つ目: `cd server && sudo java -jar server.jar`
+<br>
+このコマンドが打てたら、文字が出てくるのでそれが止まるまで待ち、左にあるソース管理というボタン(虫眼鏡マークの1つ下)を押し、eula.txt という名前のものをクリックします。
+そして、右の方に ~省略~ eula=false という文字があるので false の部分を true に書き換えます。
+そうしたら、左上にある水色の　コミット　というボタンを押し、緑のチェックボタンを押します。
+次に、エクスプローラー(紙が2枚重なってるようなもの)を押し、
+2つ目のコマンドを入力します。
+<br>
+2つ目: `sudo java -jar server.jar`
+<br>
+そうしたら、ターミナルの左の方にある　+　ボタンを押しそこで、３つ目のコードを入力します。
+<br>
+３つ目: `cd bungee && sudo java -jar bungee.jar`
 <br>
 <br>
-first tab: `cd server && sudo java -jar server.jar`
+そうしたらポートというボタンを下の方から探し、押します。
+青い ポートの追加　を押し、8081 と入力します。そして、もう一度ポートの追加　を押し25565　と入力します。
+そして、ポート　の8081　の部分を押し、地球マークを押すことで開くことができます。
 <br>
-<br>
-second tab: `cd bungee && sudo java -jar bungee.jar`
-<br>
-<br>
-Now go to the ports area and forward (and make public) ports `25565` and `8081`
-<br>
-Your eaglercraft server is setup!
+これで準備が完了し、サーバーに入ることができます。
