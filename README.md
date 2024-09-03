@@ -6,12 +6,11 @@ Original Project: Lax1Dude
 Original Server Fork: EcoliEater87
 <br>
 ## Setup Guide
-Welcome to the EaglercraftX server project! Here is how you can setup your very own eaglercraft server:
+イーグルクラフトサーバーの作り方
 <br>
 <br>
-First, go to the top of the repo and click on code > codespaces > create codespace
-<br>
-now you have your own free server instance to host eaglercraft. Next you need to run the setup commands:
+まず、右上のforkボタンを押し、もう一度右下のフォークボタンを押してこの作品をフォークします。<br>
+そうしたら、<> code のボタンを押し、codespases の　+　ボタンを押します。:
 <br>
 <br>
 create 2 terminal tabs and paste in the following snipits:
