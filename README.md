@@ -10,7 +10,8 @@ Original Server Fork: EcoliEater87
 <br>
 <br>
 まず、右上のforkボタンを押し、もう一度右下のフォークボタンを押してこの作品をフォークします。<br>
-そうしたら、<> code のボタンを押し、codespases の　+　ボタンを押します。:
+そうしたら、<> code のボタンを押し、codespases の　+　ボタンを押します。
+そしてしばらく待つと　[プレビュー]readme.md 
 <br>
 <br>
 create 2 terminal tabs and paste in the following snipits:
